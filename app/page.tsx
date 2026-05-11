@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function App() {
-  const [activeDay, setActiveDay] = useState(null);
+const [activeDay, setActiveDay] = useState<number | null>(null);
   const workout = [
     { day: "Lunedì", muscle: "Petto & Tricipiti", ex: ["Panca Piana 4x8", "Panca Inclinata Manubri 3x10", "Dips 3xMax"] },
     { day: "Martedì", muscle: "Dorso & Bicipiti", ex: ["Trazioni 4xMax", "Stacco da terra 3x5", "Rematore Bilanciere 4x10"] },
